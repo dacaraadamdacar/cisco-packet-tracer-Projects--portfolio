@@ -73,8 +73,9 @@ interface GigabitEthernet0/0.30
  ip address 192.168.1.129 255.255.255.192
 ```
 
-### Router — DHCP Pools
 
+### Router — DHCP Pools
+```bash
 ip dhcp pool Admin-Pool
  network 192.168.1.0 255.255.255.192
  default-router 192.168.1.1
