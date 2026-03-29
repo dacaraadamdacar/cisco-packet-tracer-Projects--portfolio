@@ -59,6 +59,7 @@ A fully functional **Small Office Network** designed and simulated in Cisco Pack
 ## ⚙️ Key Configurations
 
 ### Router — Inter-VLAN (Router-on-a-Stick)
+
 ```bash
 interface GigabitEthernet0/0.10
  encapsulation dot1Q 10
@@ -71,10 +72,12 @@ interface GigabitEthernet0/0.20
 interface GigabitEthernet0/0.30
  encapsulation dot1Q 30
  ip address 192.168.1.129 255.255.255.192
+
 ```
 
 
 ### Router — DHCP Pools
+
 ```bash
 ip dhcp pool Admin-Pool
  network 192.168.1.0 255.255.255.192
@@ -90,6 +93,7 @@ ip dhcp pool Reception
  network 192.168.1.128 255.255.255.192
  default-router 192.168.1.129
  dns-server 192.168.1.129
+
 ```
 
 ### Switch — Trunk & Access Ports
