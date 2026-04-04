@@ -164,7 +164,7 @@ soho-vlan-network/
 ## 👤 Author
 
 **MOHAMED ADAN MOHAMUD**
-- GitHub: [(https://github.com/yourusername)](https://github.com/dacaraadamdacar)
+- GitHub: [@Mohamed-Dacar](https://github.com/Mohamed-Dacar)
 - LinkedIn: www.linkedin.com/in/mohamed-adan-mohamud-97558213a
 
 ---
